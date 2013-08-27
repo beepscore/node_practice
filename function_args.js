@@ -18,4 +18,4 @@ var x = 3;
 sys.puts("addTwo(" + x + "): " + addTwo(x));
 sys.puts("x: " + x);
 
-
+exports.addTwo = addTwo;
