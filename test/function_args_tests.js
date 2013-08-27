@@ -12,6 +12,9 @@ describe('function_args', function(){
       var actualResult = function_args.addTwo(x);
       assert.equal(actualResult, expectedResult,
              "expected " + expectedResult + " but got " + actualResult);
+
+      assert.equal(x, 3,
+             "expected in caller scope, argument value unchanged");
     });
 
   });
